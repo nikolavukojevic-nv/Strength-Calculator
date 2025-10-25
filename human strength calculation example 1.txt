@@ -1,0 +1,28 @@
+Updated human input piece
+Strength Logic
+
+gender_change_factor = 1.75
+
+bh_female_in_cm = bh_male_in_cm / gender_change_factor
+
+daily_energy_need_male_in_kj = bh_male_in_cm - 50kg/cm * 125kJ/kg
+
+daily_power_male_watt_per_seconds = daily_energy_need_male_in_kj / 3.6
+
+robustness = daily_power_watt_per_seconds / (life_expectancy_in_seconds - age_in_seconds)
+
+money = current_capital + yearly_income * (life_expectancy_in_seconds - age_in_seconds)
+
+strength_i = robustness / money
+
+nikola vukojevic 
+4.375 W/s
+1.577.880.000 s
+
+0,000002772708 W/s2 = 2.772708 * 10^-6 W/s2 = 2.772708 mW/s2 = 2.77 mW/s2
+
+806.891,875 € = 806.90 k€
+
+3.43628e-12 W/s2€ = 3.43628 * 10^-12 W/s2€  = 3.44 pW/s2€
+
+St_more > St_less
