@@ -1,2 +1,2 @@
 # Strength-Calculator
-(computational) strength calculator
+(computational) strength calculator - device
