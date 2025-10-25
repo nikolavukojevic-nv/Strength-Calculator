@@ -1,0 +1,11 @@
+## Strength Equalizer
+### Money Exchange @ Fixed Robustness 
+‘‘‘
+avg: ordinary arithmetic mean (uniform distribution)
+
+‘‘‘
+
+St_avg = sum(St_i) / n
+M_i = R_i / St_avg
+
+Based on the given robustness R_i give the corresponding money M_i to it.
